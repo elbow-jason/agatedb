@@ -59,6 +59,7 @@ harness = false
 [[bench]]
 name = "benches_agate_rocks"
 harness = false
+required-features = ["enable-rocksdb"]
 
 [profile.bench]
 opt-level = 3
